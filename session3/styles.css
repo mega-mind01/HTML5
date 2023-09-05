@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 body{
@@ -12,7 +12,9 @@ body{
 .container{
     width: 960px;
     margin: auto;
-    background-image: url(images/Screenshot\ 2023-09-04\ 184613.png);
+    background-image: url(images/new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 600px;
 }
 
@@ -61,7 +63,7 @@ body{
 }
 
 .container header nav ul a{
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
     color: white;
     text-decoration: none;
@@ -82,8 +84,16 @@ body{
 .container .banner .hero{
     width: 50%;
     height: 200px;
-    color: white;
     font-size: 20px;
+}
+
+.container .banner .hero h2{
+    color: red;
+    text-align: center;
+}
+
+.container .banner .hero p{
+    color: white;
 }
 
 .container .main{
@@ -166,9 +176,10 @@ body{
     margin: 0 auto;
     width: 50%;
     font-size: 25px;
-    color: rgb(10, 9, 9);
-    background-color: white;
-    border-radius: 15px;
+    /* color: rgb(10, 9, 9); */
+    /* background-color: white; */
+    color: white;
+    border-radius: 5px;
 }
 
 .container .footer-widget ul{
@@ -176,10 +187,10 @@ body{
     width: 80%;
     padding: 0 30px;
     font-size: 18px;
-    color: black;
+    color: white;
     line-height: 2;
     border: solid white;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10px;
 }
 
@@ -188,10 +199,15 @@ body{
     width: 80%;
     padding: 0 30px;
     font-size: 18px;
-    color: black;
+    color: white;
     line-height: 2;
     border: solid white;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 10px;
     border-radius: 10px;
+}
+
+.container footer{
+    text-align: center;
+    color: white;
 }
