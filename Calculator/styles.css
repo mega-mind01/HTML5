@@ -1,0 +1,45 @@
+.cal{
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.cal .h1{
+    text-align: end;
+    background-color: white;
+    border: 1px solid skyblue;
+    padding: 10px;
+}
+
+.cal .h2{
+    text-align: center;
+    background-color: #5f6368;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.cal td{
+    width: 30px;
+    border-radius: 10px;
+    /* border: 2px solid white; */
+    border: solid red;
+}
+
+.cal tr{
+    text-align: center;
+    background-color: #5f6368;
+}
+
+.cal .num{
+    background-color: #3c4043;
+}
+
+.cal .eq{
+    background-color: #8ab4f8;
+}
+.left{
+    text-align: end;
+}
